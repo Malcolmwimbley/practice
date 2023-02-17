@@ -1,2 +1,4 @@
-package org.example;public record LPAStudent() {
+package org.example;
+
+public record LPAStudent(String id, String name, String dateOfBirth, String classList) {
 }
